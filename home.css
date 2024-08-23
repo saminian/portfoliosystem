@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif ;
+  background-color: black;
+}
+
+.logo{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+.logo span{
+    color: rgb(209, 10, 44);
+    text-shadow:0 0 10px violet;
+}
+
+.nav-container{
+    display: flex;
+    width: 60%;
+    margin:auto ;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: rgb(209, 53, 84);
+    font-weight: bold;
+    text-shadow: 0 0 10px purple;
+}
+
+a:hover{
+    color: blue;
+}
+
+.container{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container h1{
+    font-size: 50px;
+    color:rgb(209, 10, 44) ;
+    margin-bottom: 20px;
+}
+.container h2{
+    font-size:25px;
+    color:rgb(231, 61, 90) ;
+    margin-bottom: 15px;
+}
+
+span{
+    color: rgb(196, 26, 196);
+    font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 20px purple;
+}
+
+p{
+    color: rebeccapurple;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.social-links{
+    color: rgb(196, 26, 196);
+    margin: 3rem 1.5rem 3rem;
+    font-size: 2rem;
+    width: 100px;
+    height: 10px;
+    background-color: transparent;
+    transition: 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: space-between;
+    display: inline-flex;
+ 
+}
+.social-links :hover{
+    color: blueviolet;
+    transform: scale(1.3);
+    background-color: rgb(228, 89, 135);
+    box-shadow: 0 5px 4px rgb(214, 119, 151);
+}
+    
+.image{
+    width: 30px; 
+    height: 500px; 
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-40%);
+}
+
+
